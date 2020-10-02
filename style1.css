@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+	font-family: 'poppins',sans-serif;
+	font-weight: 500;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	
+	min-height: 200vh;
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.6s;
+	padding: 2px 5px;
+	z-index: 100000;
+
+}
+header.sticky{
+	padding: 2px 5px;
+	background: #000000;
+}
+.hamburger{
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+.logo{
+	position: relative;
+	padding:0px 15px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	font-weight: 700;
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: 0.6s;
+
+}
+.navbar{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+li{
+	position: relative;
+	list-style: none;
+	font-weight: 400px;
+}
+li a{
+	font-weight:400;
+	position: relative;
+	margin: 0 15px;
+	text-decoration: none;
+	color: #ffffff;
+	letter-spacing: 2px;
+	font-size: 20px;
+	transition: 0.6s;
+}
+
+.banner{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: url(img/bg.jpg);
+	background-size: cover;
+	width:auto;
+
+	transition: 0.6s;
+}
+.socialmedia{
+	float: right;
+	margin-right: 5px;
+	transition: 0.6s;
+}
+.socialmedia a{
+	width: 55px;
+	display: inline-block;
+	color: #ffffff;
+	text-align: center;
+	font-size: 25px;
+
+}
+.socialmedia a:hover{
+	background: #747474;
+	transition: 0.5s;
+	text-decoration: none;
+	text-transform: uppercase; 
+}
+.toptext{
+	position: relative;
+	text-align: center;
+	top:30%;
+
+}
+.maintext{
+	top: 30%;
+	color: #ffffff;
+	font-size: 90px;
+	font-weight: 500;
+	text-transform: uppercase;
+	position: relative;
+	text-align: center;
+	transition: 0.6s;
+}
+.sectext{
+	font-weight: 400;
+	margin: auto;
+	text-align: center;
+	width: 710px;
+	height: 163px;
+	padding: 30px 60px 0 60px;
+	top:35%;
+	color: #ffffff;
+	position: relative;
+	text-align: center;
+	transition: 0.6s;
+}
+
+/*
+header.sticky ul li a{
+
+}*/
+.showreel{
+	position: relative;
+	height: 100vh;
+	background: #0A9FB8;
+	background-size: cover;
+	width:auto;
+	height: 1000px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+.showtext{
+	position: relative;
+	text-align: center;
+	margin: auto;
+	text-transform: uppercase;
+	font-size: 90px;
+	font-weight: 500;
+	color: #ffffff;
+	transition: 0.6s;
+}
+.show{
+	position: relative;
+	text-align: center;
+	margin: auto;
+}
+.video-js{
+	position: relative;
+	align-items: center;
+	height: 763.67px;
+	width: auto;
+}
+
+.showpic{
+	width: 1350.6px;
+	height: 763.67px;
+}
+
+
+
+
